@@ -1,5 +1,5 @@
 
-import { Button } from '../lib/main'
+import { Button, Calendar, Input, Label } from '../lib/main'
 import './App.css'
 
 function App() {
@@ -12,6 +12,14 @@ function App() {
       >
         Click me
       </Button>
+
+      <Calendar/>
+
+      <Label htmlFor='input'>This is a label</Label>
+      <Input 
+        name='id'
+      
+      />
     </>
   )
 }
